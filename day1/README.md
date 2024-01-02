@@ -1,6 +1,6 @@
 # Wrap up
 
-## Introduction
+## Summary
 
 Executed hello world project with with initialization of variables and printing them to console.
 
