@@ -1,4 +1,4 @@
-# Wrap up
+# The traditional starting of learning a new programming language: Hello World
 
 ## Summary
 
