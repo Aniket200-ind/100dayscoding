@@ -1,5 +1,4 @@
-# Wrap up
-
+# Primitive data types 
 ## What I learnt
 
 In Day2 of **#100daysofcode** challenge I learnt about the primitive data types in Rust.
