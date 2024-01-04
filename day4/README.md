@@ -73,3 +73,17 @@ println!("The value of first is {first}, the value of second is {second}");
 
 4. Tuples are initialized using paranthesis `()` and arrays are initialized using square brackets `[]`.
 
+
+## Similarities between array and tuple
+
+1. Both are of fixed length.
+
+2. Both can be destructured.
+
+3. Both can be used to store multiple values.
+
+4. Both are stored in stack memory.
+
+5. We can access individual elements of both using index.
+
+
