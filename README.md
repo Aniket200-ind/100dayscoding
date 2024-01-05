@@ -11,3 +11,38 @@ Rust is a general-purpose, open-source programming language that is used in vari
 ## Why Rust?
 
 Rust is being voted as most loved language on **Stack Overflow** survey for 8 years in a row. This challenge is to learn Rust and to get familiar with it.
+
+## Contents
+
+<ul>
+<li>
+<a href="https://github.com/Aniket200-ind/100dayscoding/tree/main/day1" target="_blank">
+Day 1 - 
+<bold>Hello World Program</bold>
+</a>
+</li>
+<li>
+<a href="https://github.com/Aniket200-ind/100dayscoding/tree/main/day2" target="_blank">
+Day 2 - 
+<bold>Primitive Data Types</bold>
+</a>
+</li>
+<li>
+<a href="https://github.com/Aniket200-ind/100dayscoding/tree/main/day3" target="_blank">
+Day 3 - 
+<bold>Variables and Mutability</bold>
+</a>
+</li>
+<li>
+<a href="https://github.com/Aniket200-ind/100dayscoding/tree/main/day4" target="_blank">
+Day 4 - 
+<bold>Compound Data Types</bold>
+</a>
+</li>
+<li>
+<a href="https://github.com/Aniket200-ind/100dayscoding/tree/main/day5" target="_blank">
+Day 4 - 
+<bold>Conditionals</bold>
+</a>
+</li>
+</ul>
