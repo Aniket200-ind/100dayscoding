@@ -14,35 +14,14 @@ Rust is being voted as most loved language on **Stack Overflow** survey for 8 ye
 
 ## Contents
 
-<ul>
-<li>
-<a href="https://github.com/Aniket200-ind/100dayscoding/tree/main/day1" target="_blank">
-Day 1 - 
-<bold>Hello World Program</bold>
-</a>
-</li>
-<li>
-<a href="https://github.com/Aniket200-ind/100dayscoding/tree/main/day2" target="_blank">
-Day 2 - 
-<bold>Primitive Data Types</bold>
-</a>
-</li>
-<li>
-<a href="https://github.com/Aniket200-ind/100dayscoding/tree/main/day3" target="_blank">
-Day 3 - 
-<bold>Variables and Mutability</bold>
-</a>
-</li>
-<li>
-<a href="https://github.com/Aniket200-ind/100dayscoding/tree/main/day4" target="_blank">
-Day 4 - 
-<bold>Compound Data Types</bold>
-</a>
-</li>
-<li>
-<a href="https://github.com/Aniket200-ind/100dayscoding/tree/main/day5" target="_blank">
-Day 4 - 
-<bold>Conditionals</bold>
-</a>
-</li>
-</ul>
+- [Day 1 - Hello World Program](https://github.com/Aniket200-ind/100dayscoding/tree/main/day1)
+
+- [Day 2 - Primitive Data Types](https://github.com/Aniket200-ind/100dayscoding/tree/main/day2)
+
+- [Day 3 - Variables and Mutability](https://github.com/Aniket200-ind/100dayscoding/tree/main/day3)
+
+- [Day 4 - Compound Data Types](https://github.com/Aniket200-ind/100dayscoding/tree/main/day4)
+
+- [Day 5 - Conditionals](https://github.com/Aniket200-ind/100dayscoding/tree/main/day5)
+
+- [Day 6 - Loops](https://github.com/Aniket200-ind/100dayscoding/tree/main/day6)
