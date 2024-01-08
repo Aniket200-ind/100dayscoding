@@ -17,7 +17,7 @@ String Literal or `&str` are called ‘string slices’, which always point to a
 
 ```rust
 let static_str: &str = "Hello, world!";
-println(s);
+println(static_str);
 // Output: Hello, world!
 ```
 
