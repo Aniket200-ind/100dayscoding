@@ -1,5 +1,15 @@
 # Ownership, Referencing and Borrowing
 
+> **Note:** I guess this is a more theorotical concept to learn so examples won't help much.
+
+[Link to ownership documentaton](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html)
+
+[Link to References and Borrowing documentation](https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html)
+
+[Link to my Blog](https://dev.to/aniket_botre/day-9-navigating-ownership-references-and-borrowing-in-rust-21ec)
+
+---
+
 ## Ownership
 
 ### What is Ownership?
@@ -55,9 +65,3 @@ fn change(some_string: &mut String) {
     some_string.push_str(", world");
 }
 ```
-
-> **Note:** I guess this is a more theorotical concept to learn so examples won't help much.
-
-[Link to ownership documentaton](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html)
-
-[Link to References and Borrowing documentation](https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html)
