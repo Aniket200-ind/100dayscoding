@@ -31,3 +31,5 @@ Rust is being voted as most loved language on **Stack Overflow** survey for 8 ye
 - [Day 8 - Strings](https://github.com/Aniket200-ind/100dayscoding/tree/main/day8)
 
 - [Day 9 - Ownership and References and Borrowing](https://github.com/Aniket200-ind/100dayscoding/tree/main/day9)
+
+- [Day 10 - Number Guessing Game](https://github.com/Aniket200-ind/100dayscoding/tree/main/day10)
