@@ -14,28 +14,28 @@ Rust is being voted as most loved language on **Stack Overflow** survey for 8 ye
 
 ## Contents
 
-- [Day 1 - Hello World Program](https://github.com/Aniket200-ind/100dayscoding/tree/main/day1)
+- [Day 1 - Hello World Program](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_01)
 
-- [Day 2 - Primitive Data Types](https://github.com/Aniket200-ind/100dayscoding/tree/main/day2)
+- [Day 2 - Primitive Data Types](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_02)
 
-- [Day 3 - Variables and Mutability](https://github.com/Aniket200-ind/100dayscoding/tree/main/day3)
+- [Day 3 - Variables and Mutability](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_03)
 
-- [Day 4 - Compound Data Types](https://github.com/Aniket200-ind/100dayscoding/tree/main/day4)
+- [Day 4 - Compound Data Types](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_04)
 
-- [Day 5 - Conditionals](https://github.com/Aniket200-ind/100dayscoding/tree/main/day5)
+- [Day 5 - Conditionals](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_05)
 
-- [Day 6 - Loops](https://github.com/Aniket200-ind/100dayscoding/tree/main/day6)
+- [Day 6 - Loops](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_06)
 
-- [Day 7 - Functions](https://github.com/Aniket200-ind/100dayscoding/tree/main/day7)
+- [Day 7 - Functions](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_07)
 
-- [Day 8 - Strings](https://github.com/Aniket200-ind/100dayscoding/tree/main/day8)
+- [Day 8 - Strings](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_08)
 
-- [Day 9 - Ownership and References and Borrowing](https://github.com/Aniket200-ind/100dayscoding/tree/main/day9)
+- [Day 9 - Ownership and References and Borrowing](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_09)
 
-- [Day 10 - Number Guessing Game](https://github.com/Aniket200-ind/100dayscoding/tree/main/day10)
+- [Day 10 - Number Guessing Game](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_10)
 
-- [Day 11 - Structs](https://github.com/Aniket200-ind/100dayscoding/tree/main/day11)
+- [Day 11 - Structs](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_11)
 
-- [Day 12 - Methods](https://github.com/Aniket200-ind/100dayscoding/tree/main/day12)
+- [Day 12 - Methods](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_12)
 
-- [Day 13 - Enums](https://github.com/Aniket200-ind/100dayscoding/tree/main/day13)
+- [Day 13 - Enums](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_13)
