@@ -37,3 +37,5 @@ Rust is being voted as most loved language on **Stack Overflow** survey for 8 ye
 - [Day 11 - Structs](https://github.com/Aniket200-ind/100dayscoding/tree/main/day11)
 
 - [Day 12 - Methods](https://github.com/Aniket200-ind/100dayscoding/tree/main/day12)
+
+- [Day 13 - Enums](https://github.com/Aniket200-ind/100dayscoding/tree/main/day13)
