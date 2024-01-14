@@ -93,6 +93,8 @@ fn main() {
     let cat = Cat;
 
     dog.make_sound();
+// Outputs: Woof!
     cat.make_sound();
+// Outputs: Meow!
 }
 ```
