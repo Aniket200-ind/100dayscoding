@@ -43,7 +43,3 @@ for i in &v {
 There are many methods available for vectors.
 
 [Documentation for the Vector]([text](https://doc.rust-lang.org/std/vec/struct.Vec.html))
-
-<!-- If we want to create a Vec and values simultaneously, Rust offers the vec! macro. [Can be written as If we want to initialize a Vec and declare values simultaneously, ...] -->
-
-<!-- Memory for a Vector is allocated in the heap. -->
