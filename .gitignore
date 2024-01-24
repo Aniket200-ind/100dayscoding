@@ -2,3 +2,6 @@
 **/target/
 
 **/main.exe
+
+# ignore the .idea folder
+**/.idea/
