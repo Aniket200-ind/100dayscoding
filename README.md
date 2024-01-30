@@ -69,3 +69,5 @@ Rust is being voted as most loved language on **Stack Overflow** survey for 8 ye
 - [Day 27 - Multithreading and Concurrency{ Overview }](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_27)
 
 - [Day 28 - Multithreading in Rust (examples)](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_28)
+
+- [Day 29 - Shared state concurrency](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_29)
