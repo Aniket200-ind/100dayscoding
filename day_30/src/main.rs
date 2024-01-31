@@ -1,5 +1,3 @@
-use std::fs::File;
-
 #[tokio::main]
 async fn main() {
     let f = my_function();
