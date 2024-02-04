@@ -79,3 +79,6 @@ Rust is being voted as most loved language on **Stack Overflow** survey for 8 ye
 - [Day 32- Single Threaded Web Server](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_32)
 
 - [Day 33 - Iterators](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_33)
+
+- [Day 34 - Hello World in Rocket framework](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_34)
+
