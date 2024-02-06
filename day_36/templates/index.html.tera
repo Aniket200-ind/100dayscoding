@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+  <title>Rocket framework</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #073B3A;
+    }
+
+    main {
+      display: flex;
+      justify-content:
+        center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
+    }
+
+    .left-side {
+      width: 50%;
+    }
+
+    .right-side {
+      width: 50%;
+      height: 50%;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      border: 2px solid #DDB771;
+    }
+
+    .title {
+      font-size: 2.5rem;
+      color: #DDB771;
+    }
+
+    .sub-title {
+      font-size: 1.5rem;
+      color: #8ada79;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section>
+      <div class="left-side">
+        <h1 class="title">
+          This web app is built using Rocket🚀 framework which uses Rust🦀
+        </h1>
+        <p class="sub-title">
+          Welcome,
+          {{first_name}}
+          {{last_name}}! You are viewing a web app which is built using Rust🦀
+        </p>
+      </div>
+      <div class="right-side">
+        <img src="https://i.redd.it/9t12lnng69i41.png" alt="Rust logo" />
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
