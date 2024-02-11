@@ -92,3 +92,5 @@ Rust is being voted as most loved language on **Stack Overflow** survey for 8 ye
 
 - [Day 39 - Shared state management in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_39)
 
+- [Day 40 - Serving Static files in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_40)
+
