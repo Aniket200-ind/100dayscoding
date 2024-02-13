@@ -95,3 +95,5 @@ Rust is being voted as most loved language on **Stack Overflow** survey for 8 ye
 - [Day 40 - Serving Static files in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_40)
 
 - [Day 41 - Middleware concept in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_41)
+
+- [Simple REST API for users with Actix-web and SurrealDB](https://github.com/Aniket200-ind/100dayscoding/tree/main/simple_crud_user_api)
