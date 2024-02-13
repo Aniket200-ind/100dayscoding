@@ -3,7 +3,7 @@ use actix_web::web::{Data, Json, Path};
 use validator::Validate;
 
 use crate::models::{CreateUserRequest, UpdateUserURL};
-use crate::db::Database;
+use crate::db::{Database, user_data_trait::UserDataTrait};
 use crate::error::UserError;
 use crate::models::user::User;
 mod models;
@@ -19,7 +19,7 @@ async fn index() -> impl Responder {
 
 #[get("/users")]
 async fn get_users(db: Data<Database>) -> Result<Json<Vec<User>>, UserError> {
-    let users = db.get_all_users().await;
+    let users = Database::get_all_users(&db).await;
     match users {
         Some(users) => Ok(Json(users)),
         None => Err(UserError::UserRetrievalFailed)
@@ -36,14 +36,14 @@ async fn create_user(body: Json<CreateUserRequest>, db: Data<Database>) -> Resul
             let user_age = body.age;
             let user_email = body.email.clone();
 
-            if db.check_email_exists(&user_email).await {
+            if Database::check_email_exists(&db, &user_email).await {
                 return Err(UserError::UserAlreadyExists);
             }
 
             let mut buffer = uuid::Uuid::encode_buffer();
             let new_uuid = uuid::Uuid::new_v4().simple().encode_lower(&mut buffer);
 
-            let new_user = db.create_user(User::new(
+            let new_user = Database::create_user(&db, User::new(
                 String::from(new_uuid),
                 user_name,
                 user_age,
@@ -71,11 +71,11 @@ let is_valid = body.validate();
             let user_age = body.age;
             let user_email = body.email.clone();
 
-            let user = db.get_user_by_uuid(&update_user_url.uuid).await;
+            let user = Database::get_user_by_uuid(&db, &update_user_url.uuid).await;
 
             match user {
                 Some(user) => {
-                    let updated_user = db.update_user(User::new(
+                    let updated_user = Database::update_user(&db, User::new(
                         user.uuid,
                         user_name,
                         user_age,
@@ -96,11 +96,11 @@ let is_valid = body.validate();
 
 #[delete("/delete_user/{uuid}")]
 async fn delete_user(delete_user_url: Path<UpdateUserURL>, db: Data<Database>) -> Result<Json<User>, UserError> {
-    let user = db.get_user_by_uuid(&delete_user_url.uuid).await;
+    let user = Database::get_user_by_uuid(&db, &delete_user_url.uuid).await;
 
     match user {
         Some(_user) => {
-            let deleted_user = db.delete_user(&delete_user_url.uuid).await;
+            let deleted_user = Database::delete_user(&db, &delete_user_url.uuid).await;
 
             match deleted_user {
                 Some(user) => Ok(Json(user)),
