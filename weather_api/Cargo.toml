@@ -10,4 +10,4 @@ actix-web = "4.5.1"
 dotenv = "0.15.0"
 json = "0.12.4"
 reqwest = "0.11.24"
-serde = "1.0.196"
+serde = { version = "1.0.196", features = ["derive"] }
