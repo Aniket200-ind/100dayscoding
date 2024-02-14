@@ -7,3 +7,6 @@
 **/.idea/
 
 simple_crud_user_api/users.db
+
+# ignore all the environment variables in all the sub folders
+**/.env
