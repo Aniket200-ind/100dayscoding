@@ -5,3 +5,5 @@
 
 # ignore the .idea folder
 **/.idea/
+
+simple_crud_user_api/users.db
