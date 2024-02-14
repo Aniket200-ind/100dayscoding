@@ -1,0 +1,13 @@
+[package]
+name = "weather_api"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4.5.1"
+dotenv = "0.15.0"
+json = "0.12.4"
+reqwest = "0.11.24"
+serde = "1.0.196"
