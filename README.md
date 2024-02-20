@@ -100,5 +100,6 @@ Rust is being voted as most loved language on **Stack Overflow** survey for 8 ye
 
 - [Weather API](https://github.com/Aniket200-ind/100dayscoding/tree/main/weather_api)
 
-- [CSV reader](https://github.com/Aniket200-ind/100dayscoding/tree/main/csv_reader)
+- [CSV reader](https://github.com/Aniket200-ind/100dayscoding/tree/main/csv-reader)
 
+- [Making connection to MongoDB](https://github.com/Aniket200-ind/100dayscoding/tree/main/mongodb)
