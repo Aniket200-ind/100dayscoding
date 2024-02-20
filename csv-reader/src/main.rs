@@ -33,7 +33,6 @@ fn process_csv_file(input_path: &str, output_path: &str) -> Result<(), Box<dyn E
         let formatted_line = format_record(&record)?;
         output_file.write_all(formatted_line.as_bytes())?;
     }
-
     Ok(())
 }
 
@@ -44,7 +43,6 @@ fn format_record(record: &csv::StringRecord) -> Result<String, Box<dyn Error>> {
             "Insufficient fields in record",
         )));
     }
-
     let name = &record[0];
     let email = &record[1];
     Ok(format!("Name: {}, Email: {}\n", name, email))
