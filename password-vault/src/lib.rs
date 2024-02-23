@@ -4,6 +4,7 @@ use std::fs::File;
 use std::fs::OpenOptions;
 use std::io::prelude::*;
 use std::io::{Error, stdin, stdout};
+use std::path::Path;
 
 #[derive(Debug, Deserialize, Serialize)]
 pub struct ServiceInfo {
@@ -98,20 +99,19 @@ impl ServiceInfo {
     }
 
     pub fn delete_password_entry(service: &str) -> Result<(), Error>{
-        let services = ServiceInfo::read_passwords_from_file()?;
-        let mut new_services = Vec::new();
+        let mut services = ServiceInfo::read_passwords_from_file()?;
+        services.retain(|service_info| service_info.service != service);
 
-        for item in services{
-            if item.service.as_str() != service{
-                new_services.push(item);
-            }
-        }
+        let updated_json = serde_json::to_string(&services)?;
 
-        let mut file = File::create("passwords.json")?;
-        for item in new_services{
-            file.write_all(item.to_json().as_bytes())?;
-        }
+        let path = Path::new("passwords.json");
+        let mut file = OpenOptions::new()
+            .write(true)
+            .truncate(true)
+            .open(path)?;
+        file.write_all(updated_json.as_bytes())?;
 
         Ok(())
     }
 }
+
