@@ -16,7 +16,7 @@ fn main() {
     "#;
 
     println!("{}", ascii_art);
-    todo!("Update the feature of where the password which are being stored in json file are being stored in databases and add some more functionality around it. Also write more optimzed code");
+    // todo!("Update the feature of where the password which are being stored in json file are being stored in databases and add some more functionality around it. Also write more optimzed code");
 
     loop {
         println!("Password Manager");
@@ -24,8 +24,7 @@ fn main() {
         println!("2. View all password entries");
         println!("3. Search for a password entry");
         println!("4. Delete a password entry");
-        println!("5. Delete a password entry");
-        println!("6. Exit");
+        println!("5. Exit");
 
         let mut choice = String::new();
         std::io::stdin().read_line(&mut choice).unwrap();
@@ -81,11 +80,22 @@ fn main() {
             }
             4=> {
                 println!("Delete a password entry");
+
+                println!("Enter the service name to delete: ");
+                let mut service_name = String::new();
+                std::io::stdin().read_line(&mut service_name).expect("Failed to read service name");
+                let service_name = service_name.trim();
+
+                match ServiceInfo::delete_password_entry(service_name){
+                    Ok(_) => {
+                        println!("Entry deleted successfully");
+                    }
+                    Err(e) => {
+                        eprintln!("Failed to delete entry: {}", e);
+                    }
+                }
             }
             5=> {
-                println!("Delete a password entry");
-            }
-            6=> {
                 clear();
                 println!("Goodbye!");
                 break;
