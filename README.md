@@ -103,3 +103,9 @@ Rust is being voted as most loved language on **Stack Overflow** survey for 8 ye
 - [CSV reader](https://github.com/Aniket200-ind/100dayscoding/tree/main/csv-reader)
 
 - [Making connection to MongoDB](https://github.com/Aniket200-ind/100dayscoding/tree/main/mongodb)
+
+-[Password-Vault](https://github.com/Aniket200-ind/100dayscoding/tree/main/password-vault)
+
+- [URL-Sniffer](https://github.com/Aniket200-ind/100dayscoding/tree/main/url-sniffer)
+
+
