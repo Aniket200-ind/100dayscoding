@@ -6,7 +6,8 @@ mod model;
 use chrono::prelude::*;
 use serde::{Serialize, Deserialize};
 use std::convert::Infallible;
-use warp::{Filter, Rejection, Reply, http::StatusCode};
+use warp::{Filter, Rejection, Reply};
+use crate::db::DB;
 
 type Result<T> = std::result::Result<T, error::Error>;
 type WebResult<T> = std::result::Result<T, Rejection>;
@@ -47,7 +48,7 @@ async fn main() -> Result<()> {
     Ok(())
 }
 
-fn with_db(db: DB) -> impl Filter<Extract = (DB,), Error = Infallible> + Clone {
+fn with_db(db: DB) -> impl Filter<Extract=(DB, ), Error=Infallible> + Clone {
     warp::any().map(move || db.clone())
 }
 
