@@ -2,7 +2,7 @@ use chrono::{DateTime, Utc};
 use serde::{Serialize, Deserialize};
 
 #[derive(Debug, Serialize, Deserialize)]
-pub struct Book{
+pub struct Book {
     pub id: String,
     pub title: String,
     pub author: String,
