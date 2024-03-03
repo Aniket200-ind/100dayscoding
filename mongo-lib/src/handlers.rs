@@ -7,8 +7,6 @@ pub struct BookRequest {
     pub title: String,
     pub author: String,
     pub num_pages: usize,
-    pub price: f64,
-    pub in_stock: bool,
     pub tags: Vec<String>,
 }
 
