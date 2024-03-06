@@ -9,7 +9,7 @@ use warp::{reject, reply, Filter, Rejection, Reply};
 use std::collections::HashMap;
 use std::convert::Infallible;
 use crate::models::{User, LoginRequest, LoginResponse, Role};
-use crate::handlers::{login_handler, user_handler, admin_handler, with_auth, handle_rejection};
+use crate::handlers::{login_handler, user_handler, admin_handler, with_auth, handle_rejection, init_users};
 
 
 #[tokio::main]
