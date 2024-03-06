@@ -1,5 +1,6 @@
 use serde::{Deserialize, Serialize};
 
+#[derive(Clone, PartialEq)]
 pub enum Role {
     Admin,
     User,
