@@ -108,4 +108,10 @@ Rust is being voted as most loved language on **Stack Overflow** survey for 8 ye
 
 - [URL-Sniffer](https://github.com/Aniket200-ind/100dayscoding/tree/main/url-sniffer)
 
+- [Yew starter App](https://github.com/Aniket200-ind/100dayscoding/tree/main/yew-starter-app)
+
+- [Yew Counter App](https://github.com/Aniket200-ind/100dayscoding/tree/main/yew-counter-app)
+
+
+
 
