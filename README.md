@@ -104,13 +104,15 @@ Rust is being voted as most loved language on **Stack Overflow** survey for 8 ye
 
 - [Making connection to MongoDB](https://github.com/Aniket200-ind/100dayscoding/tree/main/mongodb)
 
--[Password-Vault](https://github.com/Aniket200-ind/100dayscoding/tree/main/password-vault)
+- [Password-Vault](https://github.com/Aniket200-ind/100dayscoding/tree/main/password-vault)
 
 - [URL-Sniffer](https://github.com/Aniket200-ind/100dayscoding/tree/main/url-sniffer)
 
 - [Yew starter App](https://github.com/Aniket200-ind/100dayscoding/tree/main/yew-starter-app)
 
 - [Yew Counter App](https://github.com/Aniket200-ind/100dayscoding/tree/main/yew-counter-app)
+
+- [Component Architecture using Yew](https://github.com/Aniket200-ind/100dayscoding/tree/main/yew-components)
 
 
 
