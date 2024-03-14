@@ -8,6 +8,4 @@ pub enum Route {
     About,
     #[at("/contact")]
     Contact,
-    #[at("/404")]
-    NotFound,
 }
