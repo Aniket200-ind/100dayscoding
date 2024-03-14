@@ -5,7 +5,15 @@ module.exports = {
     },
     darkMode: "media", // 'media' or 'class'
     theme: {
-      extend: {},
+      extend: {
+        colors: {
+          'raisin-black': '#161925 ',
+          'delft-blue': '#23395B',
+          'UCLA-blue': '#406E8E',
+          'powder-blue': '#8EA8C3', 
+          'mint-green': '#CBF7ED',
+        }
+      },
     },
     variants: {
       extend: {},
