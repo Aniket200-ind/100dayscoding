@@ -1,5 +1,6 @@
+use web_sys::HtmlInputElement;
+use wasm_bindgen::JsCast;
 use yew::prelude::*;
-use gloo::console::log;
 
 #[derive(Properties, PartialEq)]
 pub struct Props{
@@ -7,17 +8,21 @@ pub struct Props{
     pub label_value: String,
     pub input_type: String,
     pub input_id: String,
-    pub input_name: String
+    pub input_name: String,
+    pub handle_change: Callback<String>
 }
 
 // set state and log out the user in;put value in p tag
 
 #[function_component(TextField)]
 pub fn text_field(props: &Props) -> Html {
-    let handle_change = Callback::from(
-        |event: Event| {
+    let handle_change = props.handle_change.clone();
+
+    let handle_onchange = Callback::from(
+        move |event: Event| {
             let target = event.target().unwrap();
-            log!(target);
+            let input_text = target.unchecked_into::<HtmlInputElement>().value();
+            handle_change.emit(input_text);
         }
     );
 
@@ -34,7 +39,7 @@ pub fn text_field(props: &Props) -> Html {
                 type={props.input_type.clone()} 
                 id={props.input_id.clone()}   
                 name={props.input_name.clone()}
-                onchange={handle_change}
+                onchange={handle_onchange}
             />
         </>
     }
