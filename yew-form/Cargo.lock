@@ -1192,6 +1192,8 @@ name = "yew-form"
 version = "0.1.0"
 dependencies = [
  "gloo 0.11.0",
+ "wasm-bindgen",
+ "web-sys",
  "yew",
 ]
 
