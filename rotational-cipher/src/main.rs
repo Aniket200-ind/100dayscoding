@@ -1,22 +1,30 @@
 fn main() {
-    println!("Hello, world!");
-    todo!("Update the cipher implementation");
-    let input = "Hello, World!";
-    let key = 5;
+    let input = read_input("Enter a message to encrypt:");
+    let key: i8 = read_input("Enter a key:").parse().expect("Key must be a number");
     let encrypted = rotate(input, key);
     println!("Encrypted: {}", encrypted);
 }
-
-fn rotate(input: &str, key: u8) -> String {
-    // give logic to apply rotation cipher and it should be performant and fast use optimized code
-    let mut result = String::new();
-    for c in input.chars() {
-        let mut new_char = c as u8;
-        if c.is_ascii_alphabetic() {
-            let base = if c.is_ascii_lowercase() { b'a' } else { b'A' };
-            new_char = (new_char - base + key) % 26 + base;
-        }
-        result.push(new_char as char);
+fn read_input(prompt: &str) -> String {
+    println!("{}", prompt);
+    let mut user_input = String::new();
+    std::io::stdin().read_line(&mut user_input).expect("Failed to read line");
+    user_input.trim().to_string()
+}
+pub fn rotate(input: String, key: i8) -> String {
+    input
+        .chars()
+        .map(|c| match c {
+            'a'..='z' => rot(c as u8, b'a', key),
+            'A'..='Z' => rot(c as u8, b'A', key),
+            _ => c,
+        })
+        .collect()
+}
+fn rot(c: u8, lower_bound: u8, key: i8) -> char {
+    let new = (c - lower_bound) as i8 + key;
+    if new < 0 {
+        ((new + 26) as u8 + lower_bound) as char
+    } else {
+        (new as u8 % 26 + lower_bound) as char
     }
-    result
 }
