@@ -16,71 +16,71 @@ Rust is being voted as most loved language on **Stack Overflow** survey for 8 ye
 
 ### Rust concepts
 
-- [Hello World Program](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_01)
+- [Hello World Program](https://github.com/Aniket200-ind/100dayscoding/tree/main/hello_world)
 
-- [Primitive Data Types](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_02)
+- [Primitive Data Types](https://github.com/Aniket200-ind/100dayscoding/tree/main/primitive_data_types)
 
-- [Variables and Mutability](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_03)
+- [Variables and Mutability](https://github.com/Aniket200-ind/100dayscoding/tree/main/variables_and_mutability)
 
-- [Compound Data Types](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_04)
+- [Compound Data Types](https://github.com/Aniket200-ind/100dayscoding/tree/main/compund_data_types)
 
-- [Conditionals](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_05)
+- [Conditionals](https://github.com/Aniket200-ind/100dayscoding/tree/main/conditionals)
 
-- [Loops](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_06)
+- [Loops](https://github.com/Aniket200-ind/100dayscoding/tree/main/loops)
 
-- [Functions](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_07)
+- [Functions](https://github.com/Aniket200-ind/100dayscoding/tree/main/functions)
 
-- [Strings](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_08)
+- [Strings](https://github.com/Aniket200-ind/100dayscoding/tree/main/strings)
 
-- [Ownership and References and Borrowing](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_09)
+- [Ownership and References and Borrowing](https://github.com/Aniket200-ind/100dayscoding/tree/main/ownership_and_references_and_borrowing)
 
-- [Number Guessing Game](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_10)
+- [Number Guessing Game](https://github.com/Aniket200-ind/100dayscoding/tree/main/number_guessing_game)
 
-- [Structs](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_11)
+- [Structs](https://github.com/Aniket200-ind/100dayscoding/tree/main/structs)
 
-- [Methods](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_12)
+- [Methods](https://github.com/Aniket200-ind/100dayscoding/tree/main/methods)
 
-- [Enums](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_13)
+- [Enums](https://github.com/Aniket200-ind/100dayscoding/tree/main/enums)
 
-- [ Generics and Traits](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_14)
+- [Generics and Traits](https://github.com/Aniket200-ind/100dayscoding/tree/main/generics_and_traits)
 
-- [Car Simulation](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_15)
+- [Car Simulation](https://github.com/Aniket200-ind/100dayscoding/tree/main/car_simulation)
 
-- [Vector](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_16)
+- [Vector](https://github.com/Aniket200-ind/100dayscoding/tree/main/vector)
 
-- [ HashMap](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_17)
+- [HashMap](https://github.com/Aniket200-ind/100dayscoding/tree/main/hashmap)
 
-- [Error Handling](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_18)
+- [Error Handling](https://github.com/Aniket200-ind/100dayscoding/tree/main/error_handling)
 
-- [Factorial using recursion](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_19)
+- [Factorial using recursion](https://github.com/Aniket200-ind/100dayscoding/tree/main/factorial_using_recursion)
 
-- [File Handling](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_20)
+- [File Handling](https://github.com/Aniket200-ind/100dayscoding/tree/main/file_handling)
 
-- [Lifetimes](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_21)
+- [Lifetimes](https://github.com/Aniket200-ind/100dayscoding/tree/main/lifetimes)
 
-- [Modules](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_22)
+- [Modules](https://github.com/Aniket200-ind/100dayscoding/tree/main/modules)
 
-- [Testing](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_23)
+- [Testing](https://github.com/Aniket200-ind/100dayscoding/tree/main/testing)
 
-- [Merge Sort implementation](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_24)
+- [Merge Sort implementation](https://github.com/Aniket200-ind/100dayscoding/tree/main/merge_sort)
 
-- [Closures](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_25)
+- [Closures](https://github.com/Aniket200-ind/100dayscoding/tree/main/closures)
 
-- [Smart Pointers](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_26)
+- [Smart Pointers](https://github.com/Aniket200-ind/100dayscoding/tree/main/smart_pointers)
 
-- [Multithreading and Concurrency{ Overview }](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_27)
+- [Multithreading and Concurrency{ Overview }](https://github.com/Aniket200-ind/100dayscoding/tree/main/multithreading_councurrency_overview)
 
-- [Multithreading in Rust (examples)](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_28)
+- [Multithreading in Rust (examples)](https://github.com/Aniket200-ind/100dayscoding/tree/main/multithreading_concurrency_examples)
 
-- [Shared state concurrency](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_29)
+- [Shared state concurrency](https://github.com/Aniket200-ind/100dayscoding/tree/main/shared_state_concurrency)
 
-- [Async/Await](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_30)
+- [Async/Await](https://github.com/Aniket200-ind/100dayscoding/tree/main/async_await)
 
-- [Macros](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_31)
+- [Macros](https://github.com/Aniket200-ind/100dayscoding/tree/main/macros)
 
-- [Iterators](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_33)
+- [Iterators](https://github.com/Aniket200-ind/100dayscoding/tree/main/iterators)
 
-- [Single Threaded Web Server](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_32)
+- [Single Threaded Web Server](https://github.com/Aniket200-ind/100dayscoding/tree/main/single_threaded_web_server)
 
 ### Exercism exercises
 
@@ -89,6 +89,8 @@ Rust is being voted as most loved language on **Stack Overflow** survey for 8 ye
 - [Atbash cipher](https://github.com/Aniket200-ind/100dayscoding/tree/main/atbash-cipher)
 
 - [Bracket finder](https://github.com/Aniket200-ind/100dayscoding/tree/main/bracket-finder)
+
+- [Hasmap macro](https://github.com/Aniket200-ind/100dayscoding/tree/main/hashmap-macro)
 
 - [Isogram](https://github.com/Aniket200-ind/100dayscoding/tree/main/isogram)
 
@@ -124,23 +126,23 @@ Rust is being voted as most loved language on **Stack Overflow** survey for 8 ye
 
 ### Rocket.rs
 
-- [Hello World in Rocket framework](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_34)
+- [Hello World in Rocket framework](https://github.com/Aniket200-ind/100dayscoding/tree/main/hello_world_rocket)
 
-- [Routing in Rocket](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_35)
+- [Routing in Rocket](https://github.com/Aniket200-ind/100dayscoding/tree/main/routing_rocket)
 
-- [Templates in Rocket](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_36)
+- [Templates in Rocket](https://github.com/Aniket200-ind/100dayscoding/tree/main/templates_rocket)
 
 ### Actix-Web
 
-- [Hello World in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_37)
+- [Hello World in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/hello_world_actix-web)
 
-- [Routing in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_38)
+- [Routing in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/routing_actix-web)
 
-- [Shared state management in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_39)
+- [Shared state management in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/shared_state_concurrency)
 
-- [Serving Static files in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_40)
+- [Serving Static files in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/static_files_actix-web)
 
-- [Middleware concept in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_41)
+- [Middleware concept in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/middleware_actix-web)
 
 - [Simple REST API for users with Actix-web and SurrealDB](https://github.com/Aniket200-ind/100dayscoding/tree/main/simple_crud_user_api)
 
