@@ -82,49 +82,6 @@ Rust is being voted as most loved language on **Stack Overflow** survey for 8 ye
 
 - [Single Threaded Web Server](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_32)
 
-### Rocket.rs
-
-- [Hello World in Rocket framework](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_34)
-
-- [Routing in Rocket](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_35)
-
-- [Templates in Rocket](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_36)
-
-### Actix-Web
-
-- [Hello World in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_37)
-
-- [Routing in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_38)
-
-- [Shared state management in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_39)
-
-- [Serving Static files in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_40)
-
-- [Middleware concept in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_41)
-
-- [Simple REST API for users with Actix-web and SurrealDB](https://github.com/Aniket200-ind/100dayscoding/tree/main/simple_crud_user_api)
-
-- [Weather API](https://github.com/Aniket200-ind/100dayscoding/tree/main/weather_api)
-
-### CLI projects
-
-- [CSV reader](https://github.com/Aniket200-ind/100dayscoding/tree/main/csv-reader)
-
-- [Making connection to MongoDB](https://github.com/Aniket200-ind/100dayscoding/tree/main/mongodb)
-
-- [Password-Vault](https://github.com/Aniket200-ind/100dayscoding/tree/main/password-vault)
-
-- [URL-Sniffer](https://github.com/Aniket200-ind/100dayscoding/tree/main/url-sniffer)
-
-### Yew.rs
-
-- [Yew starter App](https://github.com/Aniket200-ind/100dayscoding/tree/main/yew-starter-app)
-
-- [Yew Counter App](https://github.com/Aniket200-ind/100dayscoding/tree/main/yew-counter-app)
-
-- [Component Architecture using Yew](https://github.com/Aniket200-ind/100dayscoding/tree/main/yew-components)
-
-
 ### Exercism exercises
 
 - [Acronym converter](https://github.com/Aniket200-ind/100dayscoding/tree/main/acronym-converter)
@@ -154,3 +111,45 @@ Rust is being voted as most loved language on **Stack Overflow** survey for 8 ye
 - [Traingle Detector](https://github.com/Aniket200-ind/100dayscoding/tree/main/triangle-detector)
 
 - [Word Occurences](https://github.com/Aniket200-ind/100dayscoding/tree/main/word-occurences)
+
+### CLI projects
+
+- [CSV reader](https://github.com/Aniket200-ind/100dayscoding/tree/main/csv-reader)
+
+- [Making connection to MongoDB](https://github.com/Aniket200-ind/100dayscoding/tree/main/mongodb)
+
+- [Password-Vault](https://github.com/Aniket200-ind/100dayscoding/tree/main/password-vault)
+
+- [URL-Sniffer](https://github.com/Aniket200-ind/100dayscoding/tree/main/url-sniffer)
+
+### Rocket.rs
+
+- [Hello World in Rocket framework](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_34)
+
+- [Routing in Rocket](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_35)
+
+- [Templates in Rocket](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_36)
+
+### Actix-Web
+
+- [Hello World in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_37)
+
+- [Routing in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_38)
+
+- [Shared state management in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_39)
+
+- [Serving Static files in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_40)
+
+- [Middleware concept in Actix-Web](https://github.com/Aniket200-ind/100dayscoding/tree/main/day_41)
+
+- [Simple REST API for users with Actix-web and SurrealDB](https://github.com/Aniket200-ind/100dayscoding/tree/main/simple_crud_user_api)
+
+- [Weather API](https://github.com/Aniket200-ind/100dayscoding/tree/main/weather_api)
+
+### Yew.rs
+
+- [Yew starter App](https://github.com/Aniket200-ind/100dayscoding/tree/main/yew-starter-app)
+
+- [Yew Counter App](https://github.com/Aniket200-ind/100dayscoding/tree/main/yew-counter-app)
+
+- [Component Architecture using Yew](https://github.com/Aniket200-ind/100dayscoding/tree/main/yew-components)
